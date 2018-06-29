@@ -1,0 +1,121 @@
+body{
+	font: 15px/1.5 Arial;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+}
+
+.container{
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background: #35224a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+} 
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+#showcase{
+	min-height: 100px;
+	background: url('../img/showcase.jpg');
+	text-align: center;
+	color: blue;
+	margin-top: 100px;
+}
+
+#showcase h1{
+	margin-top: 10px;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+#showcase h2{
+	font-size: 15px;
+}
+
+#contest{
+	background-color: #f4f4f4;
+	margin-bottom: 50px;
+}
+
+#contest .cont{
+	background-color: #e4e4e4;
+	float: left;
+	width: 60%;
+	border: #a84f1d 1px solid;
+
+
+}
+
+#contest .imag{
+	float: right;
+}
+
+footer{
+	background: #35224a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 150px;
+	border-top: #e8491d 3px solid;
+
+}
+
+footer #copyright{
+
+	width: 100%;
+}
+footer a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+footer ul{
+	margin: 0;
+	padding: 0;
+} 
+
+footer li{
+	float: right;
+	display: inline;
+	padding: 0 20px 0 20px;
+}

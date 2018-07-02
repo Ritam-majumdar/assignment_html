@@ -40,8 +40,17 @@ header li{
 	padding: 0 20px 0 20px;
 }
 
-header #branding{
+header #logo{
 	float: left;
+	width: 50%;
+}
+
+header #logo img{
+	width: 10%;
+}
+
+header #branding{
+	width: 70%;
 }
 
 header #branding h1{
@@ -58,7 +67,7 @@ header nav{
 	background: url('../img/showcase.jpg');
 	text-align: center;
 	color: blue;
-	margin-top: 100px;
+	margin-top: 120px;
 }
 
 #showcase h1{
@@ -71,13 +80,31 @@ header nav{
 	font-size: 15px;
 }
 
+#boxes{
+margin-top: 20px;
+background-color: #f4f4f4;
+}
+
+
+#boxes .box{
+float: left;
+text-align: center;
+width: 30%;
+padding: 10px;
+border: #a84f1d 1px solid;
+}
+
+#boxes .box img{
+	width: 100%;
+}
+
 #contest{
-	background-color: #f4f4f4;
+	background-color: #e4e4e4;
 	margin-bottom: 50px;
 }
 
 #contest .cont{
-	background-color: #e4e4e4;
+	background-color: #f4f4f4;
 	float: left;
 	width: 60%;
 	border: #a84f1d 1px solid;

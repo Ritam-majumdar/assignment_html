@@ -40,8 +40,18 @@ header li{
 	padding: 0 20px 0 20px;
 }
 
-header #branding{
+header #logo{
 	float: left;
+	width: 50%;
+}
+
+header #logo img{
+	width: 10%;
+}
+
+header #branding{
+	
+	width: 70%
 }
 
 header #branding h1{
@@ -58,7 +68,7 @@ header nav{
 	background: url('../img/showcase.jpg');
 	text-align: center;
 	color: blue;
-	margin-top: 100px;
+	margin-top: 120px;
 }
 
 #showcase h1{
@@ -163,6 +173,15 @@ footer{
 	min-height: 150px;
 	border-top: #e8491d 3px solid;
 
+}
+footer #copyright{
+	float left;
+	
+}
+
+footer #bottomnav{
+	
+	float: right;
 }
 footer a{
 	color: #ffffff;
